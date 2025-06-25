@@ -8,12 +8,68 @@ h2 {
     font-family: "Oswald", sans-serif;
 
 }
- a{
+
+a{
     text-decoration-line: none;
+    display: block;}
+.a{
+    background-color: rgb(49, 255, 238);
+    color: rgb(3, 3, 3);
+    padding: 5px;
+    border-radius: 10px;
+    border: 3px solid red;
+    width: 10px;
+}
+
+button {
     display: block;
+    margin: 20px;
+}
+
+@media (max-width:600px) {
+    h1 {
+        color: blue;
+        text-align: center;
+        background-color: rgb(80, 247, 224);
+    }
+
+    h2 {
+
+        color: rgb(146, 146, 2);
+        text-align: center;
+        background-color: rgb(80, 247, 224);
+
+    }
+
+    .a {
+      
+        width: 25%;
+    }
+button {
+    display: inline-block;}
+}
+@media (min-width:600px) {
+.a {
+      
+        width: 20%;
+        text-align: center;
+       
+    }
+button {
+    display: inline-block;
+   
+
+ }
+      h1 {
+        
+        text-align: center;
+         
+    }
+
+    h2 {
+
      
- }
- button{
-     display: block;
-     margin:20px;
- }
+        text-align: center;
+       
+    }
+}
