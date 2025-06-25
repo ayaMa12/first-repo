@@ -10,4 +10,10 @@ h2 {
 }
  a{
     text-decoration-line: none;
+    display: block;
+     
+ }
+ button{
+     display: block;
+     margin:20px;
  }
